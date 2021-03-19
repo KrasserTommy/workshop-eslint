@@ -5,6 +5,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "develop": "tsc --watch",
+    "eslint": "./node_modules/.bin/eslint ./src --max-warnings=0",
+    "check_formatting": "./node_modules/.bin/prettier --check ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
